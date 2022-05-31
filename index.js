@@ -45,6 +45,7 @@ class App extends Component {
     console.log('App component rendered');
     return (
       <div>
+        <Hello name="Pesto" />
         <button onClick={this.handleIncrement}>Change state</button>
         <Counters />
       </div>
